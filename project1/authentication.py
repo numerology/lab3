@@ -12,3 +12,6 @@ def login(username, password):
         print "I can't authentication you."
         return False
 
+def logout():
+    print 'You are now logged out.'
+
